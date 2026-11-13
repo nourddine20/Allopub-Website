@@ -1,0 +1,839 @@
+/********************* la mise en page des page de site web ****************************/
+body{
+
+background-color:#FFFFFF;
+background-repeat:no-repeat;
+margin-top:0px;
+
+}
+.clbody{
+/*background-color:#000;*/
+background-image:url(../imgs/back.jpg);
+background-color:#FFFFFF;
+background-repeat:no-repeat;
+margin-top:0px;
+background-position: center;
+}
+.conteneur{
+/*
+background-image:url(../imgs/back-cont.png);
+background-repeat:repeat-y;
+background-color:#000000;*/
+/*height:850px;*/
+width:1000px;
+/*padding-left:70px;*/
+/*
+padding-left:8px;
+padding-right:8px;
+*/
+	margin-left:auto;
+	margin-right:auto;
+}
+.conteneursite{
+/*
+background-image:url(../imgs/back-cont.png);
+background-repeat:repeat-y;
+background-color:#000000;*/
+height:860px;
+width:930px;
+padding-left:70px;
+/*
+padding-left:8px;
+padding-right:8px;
+*/
+}
+.text-site{
+font-family:Arial;
+font-size:12px;
+color:#000000;
+}
+.text-form{
+font-family:Arial;
+font-size:12px;
+color:#000000;
+font-weight:bold
+}
+.logo{
+width:255px;
+height:224px;
+background-image:url(../images/logo.png);
+float:left;
+}
+.alien{
+color:#FFFFFF;
+}
+.menu{
+	/*background-;color:#000;
+	padding-left:236px;*/
+font-weight:bolder;
+width:745px;
+height:224px;
+float:left;
+}
+.lien-menu{
+color:#FFFFFF;
+font-family:Arial;
+font-size:14px;
+
+text-align:center;
+
+float:left;
+}
+.page{
+/*
+background-image:url(../imgs/page.png);
+background-repeat:repeat-y;*/
+width:1000px;
+float:left;
+height:216px;
+
+}
+.contenu-page{
+background-image:url(../imgs/back-ph.png);
+	background-repeat:repeat-x;
+	width:1000px;
+	height:390px;
+	float:left;
+}
+
+.foot{
+padding-left:40px;
+font-family:Arial;
+font-size:12px;
+float:left;
+width:960px;
+height:20px;
+}
+
+.page-contenug{
+float:left;
+padding-left:20px;
+width:506px;
+height:390px;
+}
+.page-contenud{
+float:left;
+width:474px;
+height:390px;
+}
+.form-contact{
+padding-top:10px;
+font-family:Arial;
+font-size:12px;
+float:left;
+width:208px;
+height:86px;
+position:static;
+}
+
+.titre-page{
+color:#97b833;
+font-family:Arial;
+font-size:32px;
+}
+
+.serv{
+font-weight:bold;
+font-family:Arial;
+font-size:13px;
+color:#000000;
+}
+.ti{
+color:#33adc3;
+font-size:18px;
+}
+.tid{
+color:#97b833;
+font-size:20px;
+}
+
+.champs{
+background-image:url(../imgs/champu.png);
+background-repeat:no-repeat;
+width:249px;
+height:22px;
+/*border: 1px solid #E79013;*/
+}
+.champd{
+background-image:url(../imgs/champd.png);
+background-repeat:no-repeat;
+width:117px;
+height:22px;
+/*border: 1px solid #E79013;*/
+}
+.messag{
+padding-top:6px;
+padding-left:6px;
+background-image:url(../imgs/mess.png);
+background-repeat:no-repeat;
+width:243px;
+height:106px;
+}
+.adresse{
+padding-top:4px;
+padding-bottom:2px;
+padding-left:4px;
+padding-right:2px;
+background-image:url(../imgs/adresse.png);
+background-repeat:no-repeat;
+width:243px;
+height:58px;
+}
+
+.cont-photo{
+width:1000px;
+height:296px;
+margin-left:auto;
+margin-right:auto;
+}
+.diapo{
+background-image:url(../imgs/back-diap.png);
+background-repeat:repeat-y;
+width:824px;
+height:296px;
+float:left;
+padding-left:6px;
+padding-right:7px;
+}
+.head{
+width:1000px;
+height:143px;
+margin-left:auto;
+margin-right:auto;
+}
+.ban{
+width:1000px;
+height:98px;
+float:left;
+}
+.ulmenu{
+	padding-top:10px;
+	height:23px;
+	float:left;
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+
+.logo-foot{
+width:64px;
+height:30px;
+float:left;
+
+}
+.cont-page{
+	/*
+	text-align:justify;
+	line-height:0.5cm;*/
+	
+width:972px; float:left; 
+padding-left:6px; padding-right:6px;
+
+}
+
+.cntpage{
+text-align:justify;
+background-image:url(../imgs/page.png);
+background-repeat:repeat-y;
+padding-top:4px;
+width:631px;
+float:left;
+/*height:300px;*/
+
+}
+.trsv{
+font-size:18px;
+}
+.champtext{
+border: 1px solid #000000; padding-left: 4px; padding-right: 4px; padding-top: 1px; padding-bottom: 1px
+}
+.ligne{
+	background-image:url(../imgs/ligne.png);
+	background-repeat:repeat-x;
+	width:600px;
+	height:4px;
+}
+
+.cont-service{
+padding-top:20px;
+width:318px;
+float:left;
+padding-left:10px;
+padding-right:5px;
+}
+.titre-service{
+font-family:Arial;
+font-size:24px;
+font-weight:bold;
+padding-left:22px;
+height:36px;
+background-image:url(../imgs/service.png);
+background-repeat:no-repeat;
+}
+.nser{
+color:#FFFFFF;
+font-family:"Myriad Pro";
+font-size:23px;
+}
+.deservice{
+font-family:Arial;
+font-size:12px;
+color:#FFFFFF;
+padding-top:50px;
+padding-left:9px;
+width:308px;
+height:30px;
+float:left;
+}
+.tser{
+padding-top:4px;
+padding-left:7px;
+width:310px;
+height:23px;
+float:left;
+}
+.amenu{
+	color:#000000;
+}
+.actv{
+	color:#ffc000;
+}
+.service-fd{
+width:317px;
+height:118px;
+float:left;
+background-image:url(../imgs/fidelisation.png);
+background-repeat:no-repeat;
+}
+.service-tev{
+width:317px;
+height:118px;
+float:left;
+background-image:url(../imgs/televent.png);
+background-repeat:no-repeat;
+}
+.service-teop{
+width:317px;
+height:118px;
+float:left;
+background-image:url(../imgs/teleprospection.png);
+background-repeat:no-repeat;
+}
+.autre{
+width:317px;
+height:30px;
+float:left;
+}
+
+.trservice{
+font-family:Arial;
+font-size:16;
+font-weight:bold;
+}
+
+
+
+a:hover {
+	color: #ffc000;
+	
+}
+
+a{
+	text-decoration:none;
+}
+
+/*****************************************************************/
+
+
+/*******************************************************/
+.corps{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.date-jour{
+	width:772px;
+	height:15px;
+	float:left;
+	margin-top:3px;
+	text-align:right;
+	font-family:Verdana;
+	font-size:10px;
+}
+.banniere{
+	width:772px;
+	height:144px;
+	float:left;
+}
+.mrecherche{
+	width:772px;
+	height:30px;
+	float:left;
+	text-align:right;
+}
+.dmoteur{
+	background-position:right;
+	background-image:url(../images/moteuru.png);
+	width:310px;
+	height:30px;
+		margin-left:auto;
+	margin-right:auto;
+background-repeat:no-repeat;
+	float:left;	
+	
+}
+.dfoot{
+	background-image:url(../images/piedpage.png);
+	width:1000px;
+	height:38px;
+		margin-left:auto;
+	margin-right:auto;
+	background-repeat:no-repeat;
+}
+/*
+.menu{
+	width:1054px;
+	height:40px;
+	background-image:url(../images/back-menu.png);
+	background-repeat:no-repeat;
+			margin-left:auto;
+	margin-right:auto;
+}
+*/
+.soumenu{
+	width:1000px;
+	height:30px;
+			margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+
+
+/****************** page index ****************************/
+.partieu{
+	width:500px;
+	float:left;
+	display:inline;
+}
+.zone{
+float:left;	
+}
+
+.d-photo-service{
+	float:left; width:147px; height:78px; margin-left:8px; margin-top:9px;
+}
+.d-titre-service{
+	float:left; height:25px; width:310px; margin-left:8px; margin-top:12px; text-align:left;
+}
+.d-description-service{
+float:left; height:44px; width:310px; margin-left:8px; margin-top:2px; text-align:left;
+}
+
+/********************************************************/
+
+.tete-present{
+	background-image:url(../images/tete-present.png);
+	background-repeat:no-repeat;
+	float:left;
+}
+.corps-present{
+	background-image:url(../images/corp-present.png);
+	background-repeat:repeat-y;
+	float:left;
+}
+.foot-present{
+	background-image:url(../images/foot-present.png);
+	background-repeat:no-repeat;
+	float:left;
+}
+.video{
+	height:514px;
+	width:497px;
+	float:left;
+}
+.reference{
+	height:354px;
+	width:497px;
+	float:left;
+}
+.sec{
+	height:307px;
+	width:497px;
+	float:left;
+}
+
+/******************************************/
+.service{
+	height:558px;
+	width:497px;
+	float:left;
+}
+.serv-dechet{
+	background-image:url(../images/collection-dechet.png);
+	width:482px;
+	height:95px;
+	float:left;
+				margin-left:auto;
+	margin-right:auto;
+}
+.serv-assai{
+		background-image:url(../images/assainissement.png);
+	width:482px;
+	height:95px;
+	float:left;
+				margin-left:auto;
+	margin-right:auto;
+}
+.serv-net{
+		background-image:url(../images/netoyage.png);
+	width:482px;
+	height:95px;
+	float:left;
+				margin-left:auto;
+	margin-right:auto;
+}
+.serv-sec{
+		background-image:url(../images/securite.png);
+	width:482px;
+	height:95px;
+	float:left;
+				margin-left:auto;
+	margin-right:auto;
+}
+.serv-hyg{
+	background-image:url(../images/hygiene.png);
+	width:482px;
+	height:95px;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.servi-dechet{
+	background-image:url(../images/serv-collection-dechet.png);
+	background-repeat:no-repeat;
+	width:260px;
+	height:92px;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+}
+.servi-assai{
+	background-image:url(../images/serv-assainissement.png);
+	background-repeat:no-repeat;
+	width:260px;
+	height:92px;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+}
+.servi-net{
+		background-image:url(../images/serv-netoyage.png);
+			background-repeat:no-repeat;
+	width:260px;
+	height:92px;
+	float:left;
+				margin-left:auto;
+	margin-right:auto;
+}
+.servi-sec{
+		background-image:url(../images/serv-securite.png);
+			background-repeat:no-repeat;
+	width:260px;
+	height:92px;
+	float:left;
+				margin-left:auto;
+	margin-right:auto;
+}
+.servi-hyg{
+		background-image:url(../images/serv-hygiene.png);
+			background-repeat:no-repeat;
+	width:260px;
+	height:92px;
+	float:left;
+				margin-left:auto;
+	margin-right:auto;
+}
+
+/************************************************/
+
+/******************* propos********/
+.pres-propo{
+	/*height:570px;*/
+	width:722px;
+	float:left;
+}
+
+.gch{
+	background-image:url(../images/gch.png);
+	background-repeat:no-repeat;
+	width:6px;
+	height:61px;
+	float:left;
+		
+}
+.cntr{
+	background-image:url(../images/cntr.png);
+	background-repeat:repeat-x;
+float:left;
+	height:61px;
+		
+}
+
+.drt{
+	background-image:url(../images/drt.png);
+	width:5px;
+	height:61px;
+	float:left;	
+}
+.crp-prop{
+	background-image:url(../images/cr-pro.png);
+	background-repeat:repeat-y;
+	width:722px;
+	padding-left:3px;
+		float:left;	
+}
+.pie-prop{
+		background-image:url(../images/pied-pro.png);
+	background-repeat:repeat-y;
+	width:722px;
+	height:10px;
+		float:left;	
+}
+.crp-serv-prop{
+	background-image:url(../images/cr-ser-pro.png);
+	background-repeat:repeat-y;
+	width:264px;
+	float:left;
+		/*margin-left:2px;*/
+}
+.pie-serv-prop{
+		background-image:url(../images/pied-serv-pro.png);
+	background-repeat:repeat-y;
+	width:265px;
+	height:10px;
+		float:left;	
+}
+.pie-ref-prop{
+		background-image:url(../images/pied-ref-pro.png);
+	background-repeat:repeat-y;
+	width:992px;
+	height:8px;
+		float:left;	
+}
+.crp-ref-prop{
+	background-image:url(../images/cr-ref-pro.png);
+	background-repeat:repeat-y;
+	width:992px;
+		float:left;	
+}
+
+/***********************************/
+
+/***************************************/
+
+
+
+/**************************************/
+.lien-nav{
+		font-family:"Century Gothic";
+	font-size:12px;
+	color:#000000;
+}
+.t-rech{
+	font-family:Arial;
+	font-size:11px;
+	color:#FFFfff;
+}
+.t-service{
+	font-family:Arial;
+	font-size:17px;
+	color:#000000;
+}
+.t-nos-service{
+	font-family:Arial;
+	font-size:12px;
+	color:#000000;
+}
+.text-nos-service{
+	font-family:Arial;
+	font-size:11px;	
+}
+.text-service{
+	font-family:Arial;
+	font-size:12px;	
+}
+.t-service-index{
+	font-family:Arial;
+	font-size:18px;
+	color:#000000;
+}
+.d-service{
+	width:254px; height:26px; margin-top:32px; margin-left:8px;
+}
+.d-lien-dec{
+	width:70px; height:12px; margin-top:8px; margin-left:176px;
+}
+
+.t-page{
+	font-family:Arial;
+	font-size:15px;
+	color:#000000;
+}
+.t-spage{
+	font-family:Verdana;
+	font-size:12px;
+	color:#000000;
+}
+.dv-t-page{
+	float:left; margin-top:25px; margin-left:10px;
+}
+
+/*****************************************/
+
+/***************** contact ***********************/
+.back-contact{
+background-image:url(../images/back-contact.jpg);
+width:698px; float:left; height:420px;
+}
+.cont{
+width:698px; float:left; height:420px; padding-left:13px;
+}
+.devis{
+width:693px; float:left; height:366px; padding-left:13px;
+}
+.back-devis{
+background-image:url(../images/back-devis.jpg);
+width:693px; float:left; height:366px;
+}
+.rec{
+
+width:694px; float:left; height:166px; padding-left:13px;
+}
+.back-recrutement{
+	background-repeat:no-repeat;
+background-image:url(../images/back-recrutement.jpg);
+width:694px; float:left; height:166px;
+}
+/******************* nos service ******************/
+.pied-nos-services{
+	background-image:url(../images/pied-nos-services.png);
+	float:left;
+	background-repeat:no-repeat;	
+		width:998px;
+}
+.cr-nos-service{
+		background-image:url(../images/cr-nos-services.png);
+	float:left;
+	width:998px;
+	background-repeat:repeat-y;
+}
+
+/*****************************************************/
+
+.pack-service-deche{
+	background-image:url(../images/pack-collect.png);
+	float:left;
+	width:188px;
+	height:303px;
+	background-repeat:no-repeat;
+}
+
+.pack-service-assi{
+	background-image:url(../images/pack-assainissement.png);
+	float:left;
+	width:188px;
+	height:303px;
+	background-repeat:no-repeat;
+}
+
+.pack-service-nett{
+	background-image:url(../images/pack-nettoyage.png);
+	float:left;
+	width:188px;
+	height:303px;
+	background-repeat:no-repeat;
+}
+
+.pack-service-hy{
+	background-image:url(../images/pack-hygiene.png);
+	float:left;
+	width:188px;
+	height:303px;
+	background-repeat:no-repeat;
+}
+.pack-service-secu{
+	background-image:url(../images/pack-secu.png);
+	float:left;
+	width:188px;
+	height:303px;
+	background-repeat:no-repeat;
+}
+
+
+
+
+/******************************************/
+
+.d-pack-service{
+	float:left; width:173px; height:145px; padding-left:6px; margin-top:11px;
+}
+
+.d-t-pack{
+	height:20px; width:180px; float:left; margin-top:17px; padding-left:10px;
+}
+
+.d-des-pack{
+height:90px; width:176px; float:left; padding-left:10px;
+
+}
+.d-lien-dec-nos{
+	height:14px; width:80px; float:left; padding-left:60px; margin-top:3px;
+}
+
+.signeet{
+	color:#e79013;
+	font-family:arial;
+}
+.champform{
+	border: 1px solid #E79013;
+}
+.btenvoyer{
+	font-family:Arial;
+	color:#ffffff;
+	font-size:12px;
+}
+.bligne{
+	background-image:url(../images/ligne.jpg);
+	background-repeat:repeat-y;
+	width:20px ;
+float:left;
+}
+.flech{
+background-repeat:no-repeat;
+float:left; height:20; width:12px; margin-left:15px; margin-top:6px;
+}
+.dtservice{
+float:left; height:20; width:660px;margin-top:8px; margin-left:15px;
+}
+.lienmod{
+font-family:Arial;
+font-size:12px;
+color:#000000;
+}
+
+.text-sit{
+font-family:Verdana;
+font-size:10px;
+}
+.driap{
+width:705px; float:left; height:220px; padding-left:15px;
+}
+.lien{
+color:#000000;
+}

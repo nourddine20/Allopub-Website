@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirect requests to Laravel's index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+
+    # Deny access to sensitive files by type
+    <FilesMatch "\.(env|json|log|php|sql|config)$">
+        Require all denied
+    </FilesMatch>
+
+    # Optional: Deny access to specific files by name
+    <Files "example.txt">
+        Require all denied
+    </Files>
+</IfModule>

@@ -1,0 +1,35 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Redirect old URLs to new URLs
+    Redirect 301 /qui-sommes-nous.php /stand-qui-somme-nous
+    Redirect 301 /produits-et-services.php /stand-produits-et-services
+    Redirect 301 /en /?lang=en
+    Redirect 301 /portfolio/Stand_Z_AKRO.php /stand-portfolio/Stand_Z_AKRO
+    Redirect 301 /index.php?lang=en https://www.allopub.ma/?lang=en
+    
+    # Dynamic redirect example (if applicable)
+    RewriteCond %{QUERY_STRING} ^id=([0-9]+)$
+    RewriteRule ^old-page.php$ /new-page/%1? [R=301,L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    # Allow serving of assets (CSS, JS, etc.)
+    RewriteRule ^(css|js|images|fonts|storage|favicon.ico) - [L]
+</IfModule>
