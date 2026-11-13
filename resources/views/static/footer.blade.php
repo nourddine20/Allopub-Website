@@ -42,7 +42,7 @@ html, body {
         <div class="row g-5">
             <!-- <a href="{{route('accueil')}}">
                 <h2 class="text-white fw-bold m-0">
-                    <img class="img-fluid" style="width:150px;" src="{{asset('public/assets/img/logo-white.png')}}" alt="" />
+                    <img class="img-fluid" style="width:150px;" src="{{asset('assets/img/logo-white.png')}}" alt="" />
                 </h2>
             </a> -->
             <div class="col-lg-4 col-md-6">
@@ -113,14 +113,14 @@ html, body {
 <!-- JavaScript Libraries -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="{{asset('public/assets/lib/wow/wow.min.js')}}"></script>
-<script src="{{asset('public/assets/lib/easing/easing.min.js')}}"></script>
-<script src="{{asset('public/assets/lib/waypoints/waypoints.min.js')}}"></script>
-<script src="{{asset('public/assets/lib/owlcarousel/owl.carousel.min.js')}}"></script>
-<script src="{{asset('public/assets/lib/lightbox/js/lightbox.min.js')}}"></script>
+<script src="{{asset('assets/lib/wow/wow.min.js')}}"></script>
+<script src="{{asset('assets/lib/easing/easing.min.js')}}"></script>
+<script src="{{asset('assets/lib/waypoints/waypoints.min.js')}}"></script>
+<script src="{{asset('assets/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+<script src="{{asset('assets/lib/lightbox/js/lightbox.min.js')}}"></script>
 
 <!-- Template Javascript -->
-<script src="{{asset('public/assets/js/main.js')}}"></script>
+<script src="{{asset('assets/js/main.js')}}"></script>
 
 <script>
     // Function to detect the selected language from the URL

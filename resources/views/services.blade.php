@@ -32,8 +32,8 @@
        <div class="service-text rounded p-5">
             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                 <div class="img-container">
-                    <img class="img-fluid default-img" src="{{asset('public/assets/img/services/amenagement_stand-grey.png')}}" alt="Default Icon">
-                    <img class="img-fluid hover-img" src="{{asset('public/assets/img/services/amenagement_stand-geld.png')}}" alt="Hover Icon">
+                    <img class="img-fluid default-img" src="{{asset('assets/img/services/amenagement_stand-grey.png')}}" alt="Default Icon">
+                    <img class="img-fluid hover-img" src="{{asset('assets/img/services/amenagement_stand-geld.png')}}" alt="Hover Icon">
                 </div>
             </div>
             <h5 class="mb-5">{{__('messages.AMENAGEMENT DE STANDS')}}</h5>
@@ -51,9 +51,9 @@
         <div class="service-text rounded p-5">
             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                 <div class="img-container">
-                    <img class="img-fluid default-img" src="{{asset('public/assets/img/services/enseigne_publicitaire_caract-grey.png')}}" alt="Default Icon">
+                    <img class="img-fluid default-img" src="{{asset('assets/img/services/enseigne_publicitaire_caract-grey.png')}}" alt="Default Icon">
                    
-                    <img class="img-fluid hover-img" src="{{asset('public/assets/img/services/enseigne_publicitaire_caract-geld.png')}}" alt="Hover Icon">
+                    <img class="img-fluid hover-img" src="{{asset('assets/img/services/enseigne_publicitaire_caract-geld.png')}}" alt="Hover Icon">
                 </div>
             </div>
             <h5 class="mb-5">{{__('messages.ADVERTISING_SIGNS')}}</h5>
@@ -75,8 +75,8 @@
       <div class="service-text rounded p-5">
             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                 <div class="img-container">
-                    <img class="img-fluid default-img" src="{{asset('public/assets/img/services/agencement-magasins-grey.png')}}" alt="Default Icon">
-                    <img class="img-fluid hover-img" src="{{asset('public/assets/img/services/agencement-magasins-geld.png')}}" alt="Hover Icon">
+                    <img class="img-fluid default-img" src="{{asset('assets/img/services/agencement-magasins-grey.png')}}" alt="Default Icon">
+                    <img class="img-fluid hover-img" src="{{asset('assets/img/services/agencement-magasins-geld.png')}}" alt="Hover Icon">
                 </div>
             </div>
             <h5 class="mb-4">{{__('messages.STORE_LAYOUT')}}</h5>
@@ -95,8 +95,8 @@
         <div class="service-text rounded p-5">
             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                 <div class="img-container">
-                    <img class="img-fluid default-img" src="{{asset('public/assets/img/services/plv-grey.png')}}" alt="Default Icon">
-                    <img class="img-fluid hover-img" src="{{asset('public/assets/img/services/plv-geld.png')}}" alt="Hover Icon">
+                    <img class="img-fluid default-img" src="{{asset('assets/img/services/plv-grey.png')}}" alt="Default Icon">
+                    <img class="img-fluid hover-img" src="{{asset('assets/img/services/plv-geld.png')}}" alt="Hover Icon">
                 </div>
             </div>
             <h5 class="mb-5">{{__('messages.PLV')}}</h5>
@@ -161,8 +161,8 @@
        <div class="service-text rounded p-5">
             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                 <div class="img-container">
-                    <img class="img-fluid default-img" src="{{asset('public/assets/img/services/impression-grand-format-grey.png')}}" alt="Default Icon">
-                    <img class="img-fluid hover-img" src="{{asset('public/assets/img/services/impression-grand-format-geld.png')}}" alt="Hover Icon">
+                    <img class="img-fluid default-img" src="{{asset('assets/img/services/impression-grand-format-grey.png')}}" alt="Default Icon">
+                    <img class="img-fluid hover-img" src="{{asset('assets/img/services/impression-grand-format-geld.png')}}" alt="Hover Icon">
                 </div>
             </div>
             <h5 class="mb-5">{{__('messages.LARGE_FORMAT_PRINTING')}}</h5>
@@ -180,8 +180,8 @@
        <div class="service-text rounded p-5">
             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                 <div class="img-container">
-                    <img class="img-fluid default-img" src="{{asset('public/assets/img/services/palissades-de-chantier-grey.png')}}" alt="Default Icon">
-                    <img class="img-fluid hover-img" src="{{asset('public/assets/img/services/palissades-de-chantier-geld.png')}}" alt="Hover Icon">
+                    <img class="img-fluid default-img" src="{{asset('assets/img/services/palissades-de-chantier-grey.png')}}" alt="Default Icon">
+                    <img class="img-fluid hover-img" src="{{asset('assets/img/services/palissades-de-chantier-geld.png')}}" alt="Hover Icon">
                 </div>
             </div>
             <h5 class="mb-4">{{__('messages.CONSTRUCTION_FENCES')}}</h5>

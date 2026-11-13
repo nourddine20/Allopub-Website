@@ -6,7 +6,7 @@
     <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="w-100" src="{{asset('public/assets/img/allo_pub_bannier1.jpg')}}" alt="Image">
+                <img class="w-100" src="{{asset('assets/img/allo_pub_bannier1.jpg')}}" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="w-100" src="{{asset('public/assets/img/allo_pub_bannier2.jpg')}}" alt="Image">
+                <img class="w-100" src="{{asset('assets/img/allo_pub_bannier2.jpg')}}" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -27,7 +27,7 @@
             </div>
 
             <div class="carousel-item">
-                <img class="w-100" src="{{asset('public/assets/img/allo_pub_bannier3.png')}}" alt="Image">
+                <img class="w-100" src="{{asset('assets/img/allo_pub_bannier3.png')}}" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -38,7 +38,7 @@
             </div>
            
             <div class="carousel-item">
-                <img class="w-100" src="{{asset('public/assets/img/allo_pub_bannier4.png')}}" alt="Image">
+                <img class="w-100" src="{{asset('assets/img/allo_pub_bannier4.png')}}" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -49,7 +49,7 @@
             </div>
            
             <div class="carousel-item">
-                <img class="w-100" src="{{asset('public/assets/img/allo_pub_bannier5.png')}}" alt="Image">
+                <img class="w-100" src="{{asset('assets/img/allo_pub_bannier5.png')}}" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -60,7 +60,7 @@
             </div>
            
             <div class="carousel-item">
-                <img class="w-100" src="{{asset('public/assets/img/allo_pub_bannier6.png')}}" alt="Image">
+                <img class="w-100" src="{{asset('assets/img/allo_pub_bannier6.png')}}" alt="Image">
                 <div class="carousel-caption">
                     <div class="container">
                         <div class="row justify-content-end">
@@ -93,7 +93,7 @@
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
                     <div class="feature-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="{{asset('public/assets/img/icon/icon-1.png')}}" alt="Icon">
+                            <img class="img-fluid" src="{{asset('assets/img/icon/icon-1.png')}}" alt="Icon">
                         </div>
                         <h5 class="mb-3">Award Winning</h5>
                         <p class="mb-0">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam</p>
@@ -102,7 +102,7 @@
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                     <div class="feature-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="{{asset('public/assets/img/icon/icon-2.png')}}" alt="Icon">
+                            <img class="img-fluid" src="{{asset('assets/img/icon/icon-2.png')}}" alt="Icon">
                         </div>
                         <h5 class="mb-3">Professional Staff</h5>
                         <p class="mb-0">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam</p>
@@ -111,7 +111,7 @@
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="feature-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="{{asset('public/assets/img/icon/icon-3.png')}}" alt="Icon">
+                            <img class="img-fluid" src="{{asset('assets/img/icon/icon-3.png')}}" alt="Icon">
                         </div>
                         <h5 class="mb-3">Fair Prices</h5>
                         <p class="mb-0">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam</p>
@@ -120,7 +120,7 @@
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <div class="feature-item border h-100 p-5">
                         <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="{{asset('public/assets/img/icon/icon-4.png')}}" alt="Icon">
+                            <img class="img-fluid" src="{{asset('assets/img/icon/icon-4.png')}}" alt="Icon">
                         </div>
                         <h5 class="mb-3">24/7 Support</h5>
                         <p class="mb-0">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam</p>
@@ -139,7 +139,7 @@
                 <div class="col-lg-6">
                     <div class="h-100 d-flex align-items-center justify-content-center" style="min-height: 300px;">
                         <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="{{asset('public/assets/video/animation allopub.mp4')}}" data-bs-target="#videoModal">
+                            data-src="{{asset('assets/video/animation allopub.mp4')}}" data-bs-target="#videoModal">
                             <span></span>
                         </button>
                     </div>
@@ -152,12 +152,12 @@
                             diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
                         <div class="row g-5 pt-2 mb-5">
                             <div class="col-sm-6">
-                                <img class="img-fluid mb-4" src="{{asset('public/assets/img/icon/icon-5.png')}}" alt="">
+                                <img class="img-fluid mb-4" src="{{asset('assets/img/icon/icon-5.png')}}" alt="">
                                 <h5 class="mb-3">Managed Services</h5>
                                 <span>Clita erat ipsum et lorem et sit sed stet lorem</span>
                             </div>
                             <div class="col-sm-6">
-                                <img class="img-fluid mb-4" src="{{asset('public/assets/img/icon/icon-2.png')}}" alt="">
+                                <img class="img-fluid mb-4" src="{{asset('assets/img/icon/icon-2.png')}}" alt="">
                                 <h5 class="mb-3">Dedicated Experts</h5>
                                 <span>Clita erat ipsum et lorem et sit sed stet lorem</span>
                             </div>
@@ -222,7 +222,7 @@
           <!-- Video Placeholder -->
           <div id="video-placeholder" class="position-relative" style="width: 100%; height: 100%;">
             <img
-              src="{{ asset('public/assets/img/about.jpg') }}"
+              src="{{ asset('assets/img/about.jpg') }}"
               alt="Video Placeholder"
               style="width: 100%; height: 100%; object-fit: cover;"
             />
@@ -232,7 +232,7 @@
               onclick="loadAndPlayVideo()"
               id="play-button"
             >
-              <img src="{{ asset('public/assets/img/play-button.png') }}" alt="Play Button" style="width: 80px;" />
+              <img src="{{ asset('assets/img/play-button.png') }}" alt="Play Button" style="width: 80px;" />
             </div>
             
           </div>
@@ -325,8 +325,8 @@
         <div class="service-text rounded p-5">
             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                 <div class="img-container">
-                    <img class="img-fluid default-img" src="{{asset('public/assets/img/services/amenagement_stand-grey.png')}}" alt="Default Icon">
-                    <img class="img-fluid hover-img" src="{{asset('public/assets/img/services/amenagement_stand-geld.png')}}" alt="Hover Icon">
+                    <img class="img-fluid default-img" src="{{asset('assets/img/services/amenagement_stand-grey.png')}}" alt="Default Icon">
+                    <img class="img-fluid hover-img" src="{{asset('assets/img/services/amenagement_stand-geld.png')}}" alt="Hover Icon">
                 </div>
             </div>
             <h5 class="mb-5">{{__('messages.AMENAGEMENT DE STANDS')}}</h5>
@@ -345,9 +345,9 @@
         <div class="service-text rounded p-5 ">
             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                 <div class="img-container">
-                    <img class="img-fluid default-img" src="{{asset('public/assets/img/services/enseigne_publicitaire_caract-grey.png')}}" alt="Default Icon">
+                    <img class="img-fluid default-img" src="{{asset('assets/img/services/enseigne_publicitaire_caract-grey.png')}}" alt="Default Icon">
                    
-                    <img class="img-fluid hover-img" src="{{asset('public/assets/img/services/enseigne_publicitaire_caract-geld.png')}}" alt="Hover Icon">
+                    <img class="img-fluid hover-img" src="{{asset('assets/img/services/enseigne_publicitaire_caract-geld.png')}}" alt="Hover Icon">
                 </div>
             </div>
             <h5 class="mb-5">{{__('messages.ADVERTISING_SIGNS')}}</h5>
@@ -370,8 +370,8 @@
         <div class="service-text rounded p-5">
             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                 <div class="img-container">
-                    <img class="img-fluid default-img" src="{{asset('public/assets/img/services/agencement-magasins-grey.png')}}" alt="Default Icon">
-                    <img class="img-fluid hover-img" src="{{asset('public/assets/img/services/agencement-magasins-geld.png')}}" alt="Hover Icon">
+                    <img class="img-fluid default-img" src="{{asset('assets/img/services/agencement-magasins-grey.png')}}" alt="Default Icon">
+                    <img class="img-fluid hover-img" src="{{asset('assets/img/services/agencement-magasins-geld.png')}}" alt="Hover Icon">
                 </div>
             </div>
             <h5 class="mb-4">{{__('messages.STORE_LAYOUT')}}</h5>
@@ -390,8 +390,8 @@
         <div class="service-text rounded p-5">
             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                 <div class="img-container">
-                    <img class="img-fluid default-img" src="{{asset('public/assets/img/services/plv-grey.png')}}" alt="Default Icon">
-                    <img class="img-fluid hover-img" src="{{asset('public/assets/img/services/plv-geld.png')}}" alt="Hover Icon">
+                    <img class="img-fluid default-img" src="{{asset('assets/img/services/plv-grey.png')}}" alt="Default Icon">
+                    <img class="img-fluid hover-img" src="{{asset('assets/img/services/plv-geld.png')}}" alt="Hover Icon">
                 </div>
             </div>
             <h5 class="mb-5">{{__('messages.PLV')}}</h5>
@@ -456,8 +456,8 @@
         <div class="service-text rounded p-5">
             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                 <div class="img-container">
-                    <img class="img-fluid default-img" src="{{asset('public/assets/img/services/impression-grand-format-grey.png')}}" alt="Default Icon">
-                    <img class="img-fluid hover-img" src="{{asset('public/assets/img/services/impression-grand-format-geld.png')}}" alt="Hover Icon">
+                    <img class="img-fluid default-img" src="{{asset('assets/img/services/impression-grand-format-grey.png')}}" alt="Default Icon">
+                    <img class="img-fluid hover-img" src="{{asset('assets/img/services/impression-grand-format-geld.png')}}" alt="Hover Icon">
                 </div>
             </div>
             <h5 class="mb-5">{{__('messages.LARGE_FORMAT_PRINTING')}}</h5>
@@ -476,8 +476,8 @@
       <div class="service-text rounded p-5">
             <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 64px; height: 64px;">
                 <div class="img-container">
-                    <img class="img-fluid default-img" src="{{asset('public/assets/img/services/palissades-de-chantier-grey.png')}}" alt="Default Icon">
-                    <img class="img-fluid hover-img" src="{{asset('public/assets/img/services/palissades-de-chantier-geld.png')}}" alt="Hover Icon">
+                    <img class="img-fluid default-img" src="{{asset('assets/img/services/palissades-de-chantier-grey.png')}}" alt="Default Icon">
+                    <img class="img-fluid hover-img" src="{{asset('assets/img/services/palissades-de-chantier-geld.png')}}" alt="Hover Icon">
                 </div>
             </div>
             <h5 class="mb-4">{{__('messages.CONSTRUCTION_FENCES')}}</h5>
@@ -517,7 +517,7 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                     <a href="{{route('portfolio.view',['item'=>'1-Stand_Arrawaj'])}}">
-                    <img class="img-fluid" style="height: 400px;" src="{{asset('public/assets/img/project_stands/1-Stand_Arrawaj.jpg')}}" alt="">
+                    <img class="img-fluid" style="height: 400px;" src="{{asset('assets/img/project_stands/1-Stand_Arrawaj.jpg')}}" alt="">
                      </a> 
                        
                     </div>
@@ -526,7 +526,7 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                        <a href="{{route('portfolio.view',['item'=>'1-Stand_Bielenda'])}}">
-                       <img class="img-fluid" style="height: 400px;" src="{{asset('public/assets/img/project_stands/1-Stand_Bielenda.jpg')}}" alt="">
+                       <img class="img-fluid" style="height: 400px;" src="{{asset('assets/img/project_stands/1-Stand_Bielenda.jpg')}}" alt="">
                        </a>
                     
                     </div>
@@ -536,7 +536,7 @@
                    <div class="project-item mb-5">
                     <div class="position-relative">
                     <a href="{{route('portfolio.view',['item'=>'stand_inadis_luxalight'])}}">
-                    <img class="img-fluid" style="height: 400px;" src="{{asset('public/assets/img/project_stands/stand_inadis_luxalight.jpeg')}}" alt="">
+                    <img class="img-fluid" style="height: 400px;" src="{{asset('assets/img/project_stands/stand_inadis_luxalight.jpeg')}}" alt="">
                      </a> 
                        
                     </div>
@@ -546,7 +546,7 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                      <a href="{{route('portfolio.view',['item'=>'1-Stand_Cibex'])}}">
-                     <img class="img-fluid" style="height: 400px;" src="{{asset('public/assets/img/project_stands/1-Stand_Cibex.jpg')}}" alt="">
+                     <img class="img-fluid" style="height: 400px;" src="{{asset('assets/img/project_stands/1-Stand_Cibex.jpg')}}" alt="">
                      </a>   
                       
                     </div>
@@ -555,7 +555,7 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                       <a  href="{{route('portfolio.view',['item'=>'1-Stand_Dimatit'])}}">
-                      <img class="img-fluid" style="height: 400px;" src="{{asset('public/assets/img/project_stands/1-Stand_Dimatit.jpg')}}" alt="">
+                      <img class="img-fluid" style="height: 400px;" src="{{asset('assets/img/project_stands/1-Stand_Dimatit.jpg')}}" alt="">
                       </a> 
                       
                     </div>
@@ -565,7 +565,7 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                      <a href="{{route('portfolio.view',['item'=>'1-Stand_EasySolution'])}}">
-                     <img class="img-fluid" style="height: 400px;" src="{{asset('public/assets/img/project_stands/1-Stand_EasySolution.jpg')}}" alt="">
+                     <img class="img-fluid" style="height: 400px;" src="{{asset('assets/img/project_stands/1-Stand_EasySolution.jpg')}}" alt="">
                      </a>  
                        
                     </div>
@@ -575,7 +575,7 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                       <a  href="{{route('portfolio.view',['item'=>'1-Stand_Freshworks'])}}">
-                      <img class="img-fluid" style="height: 400px;" src="{{asset('public/assets/img/project_stands/1-Stand_Freshworks.jpg')}}" alt="">
+                      <img class="img-fluid" style="height: 400px;" src="{{asset('assets/img/project_stands/1-Stand_Freshworks.jpg')}}" alt="">
                       </a> 
                       
                     </div>
@@ -585,7 +585,7 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                       <a href="{{route('portfolio.view',['item'=>'1-Stand_Labomag'])}}">
-                      <img class="img-fluid" style="height: 400px;" src="{{asset('public/assets/img/project_stands/1-Stand_Labomag.jpg')}}" alt="">
+                      <img class="img-fluid" style="height: 400px;" src="{{asset('assets/img/project_stands/1-Stand_Labomag.jpg')}}" alt="">
                       </a>  
                       
                     </div>
@@ -595,7 +595,7 @@
                 <div class="project-item mb-5">
                     <div class="position-relative">
                        <a href="{{route('portfolio.view',['item'=>'1-Stand_Luxalight'])}}">
-                       <img class="img-fluid" style="height: 400px;" src="{{asset('public/assets/img/project_stands/1-Stand_Luxalight.jpg')}}" alt="">
+                       <img class="img-fluid" style="height: 400px;" src="{{asset('assets/img/project_stands/1-Stand_Luxalight.jpg')}}" alt="">
                        </a>
                       
                     </div>
@@ -798,12 +798,13 @@
     });
 </script>
    
-<?php
-$directory = 'public/assets/img/clients';
-$images = array_diff(scandir($directory), array('..', '.')); // Get all files excluding "." and ".."
-?>
+@php
+    $directory = public_path('assets/img/clients');
 
-
+    $images = is_dir($directory)
+        ? array_diff(scandir($directory), ['.', '..'])
+        : [];
+@endphp
 
 
 
@@ -820,7 +821,7 @@ $images = array_diff(scandir($directory), array('..', '.')); // Get all files ex
    <section class="owl-carousel project-carousel wow fadeInUp customer-logos slider">
    <?php foreach ($images as $image): ?>
         <div class="slide" style="width: 160px; height: 80px;">
-            <img style="width: 160px; height: 80px;" alt="conceptions de vos supports" src="<?= $directory . '/' . $image ?>">
+            <img style="width: 160px; height: 80px;" alt="conceptions de vos supports" src="{{asset('assets/img/clients/' . $image)}}">
         </div>
     <?php endforeach; ?>  
    </section>

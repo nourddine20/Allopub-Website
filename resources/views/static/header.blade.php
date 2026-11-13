@@ -13,7 +13,7 @@
     <link rel="canonical" href="https://www.allopub.ma/">
   
     <!-- Favicon -->
-    <link href="{{asset('public/favicon.ico')}}" rel="icon">
+    <link href="{{asset('favicon.ico')}}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,15 +25,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="{{asset('public/assets/lib/animate/animate.min.css')}}" rel="stylesheet">
-    <link href="{{asset('public/assets/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
-    <link href="{{asset('public/assets/lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/lib/animate/animate.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{asset('public/assets/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{asset('public/assets/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <style>
@@ -211,12 +211,12 @@
 
                 <!-- <a href="{{route('accueil')}}">
                     <h2 class="text-white fw-bold m-0">
-                        <img class="img-fluid w-50" src="{{asset('public/assets/img/logo.png')}}" alt="" />
+                        <img class="img-fluid w-50" src="{{asset('assets/img/logo.png')}}" alt="" />
                     </h2>
                 </a> -->
 
                 <a href="{{route('accueil')}}" style="text-align:center;width:30vw;margin-left:-5vw;">
-                <img class="w-50" src="{{asset('public/assets/img/logo.png')}}" alt="" />
+                <img class="w-50" src="{{asset('assets/img/logo.png')}}" alt="" />
                 </a>
                 <div class="ms-auto d-flex align-items-center" >
                   <div class="ms-3 d-flex">
@@ -257,7 +257,7 @@
                 </button>
                
                 <a href="{{route('accueil')}}" class="navbar-brand d-lg-none" style="width:125px;">
-                    <h1 class="fw-bold m-0"><img class="img-fluid me-3" style="width:100%;" src="{{asset('public/assets/img/logo.png')}}" alt="" /></h1>
+                    <h1 class="fw-bold m-0"><img class="img-fluid me-3" style="width:100%;" src="{{asset('assets/img/logo.png')}}" alt="" /></h1>
                     
                 </a>
 

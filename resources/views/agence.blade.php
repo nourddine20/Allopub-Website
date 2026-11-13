@@ -20,7 +20,7 @@
   <div class="container">
     <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
       <div class="col-12  col-lg-6 col-xl-5">
-      <!-- <video style="width:100%; " class="img-fluid" src="{{asset('public/assets/video/animation allopub.mp4')}}"></video> -->
+      <!-- <video style="width:100%; " class="img-fluid" src="{{asset('assets/video/animation allopub.mp4')}}"></video> -->
            <!-- Video Placeholder -->
          <div
           class="position-relative overflow-hidden rounded pt-5 h-100"
@@ -28,7 +28,7 @@
         >
           <div id="video-placeholder" class="position-relative" style="width: 100%; height: 100%;">
             <img
-              src="{{ asset('public/assets/img/about.jpg') }}"
+              src="{{ asset('assets/img/about.jpg') }}"
               alt="Video Placeholder"
               style="width: 100%; height: 100%; object-fit: cover;"
             />
@@ -38,7 +38,7 @@
               onclick="loadAndPlayVideo()"
               id="play-button"
             >
-              <img src="{{ asset('public/assets/img/play-button.png') }}" alt="Play Button" style="width: 80px;" />
+              <img src="{{ asset('assets/img/play-button.png') }}" alt="Play Button" style="width: 80px;" />
             </div>
             
           </div>

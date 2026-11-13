@@ -349,20 +349,20 @@ white-space: pre-line;
             <div class="col-md-8 mb-3">
                      <!-- Flickity HTML init -->
                     <div class="carousel carousel-main" data-flickity='{"pageDots": false }'>
-                        <div class="carousel-cell"><img src="{{ asset('public/assets/img/project_stands/'.$portfolioItems->project_image)}}" /></div>
+                        <div class="carousel-cell"><img src="{{ asset('assets/img/project_stands/'.$portfolioItems->project_image)}}" /></div>
                   @foreach($portfolioItems->galleries as $item)
-                        <div class="carousel-cell"><img src="{{asset('public/assets/img/project_details/'.$item->gallery_image)}}" /></div>
-                        <!-- <div class="carousel-cell"><img src="{{asset('public/assets/img/project_details/1-Stand_Arrawaj-4.jpg')}}" /></div>
-                        <div class="carousel-cell"><img src="{{asset('public/assets/img/project_details/1-Stand_Arrawaj-5.jpg')}}" /></div> -->
+                        <div class="carousel-cell"><img src="{{asset('assets/img/project_details/'.$item->gallery_image)}}" /></div>
+                        <!-- <div class="carousel-cell"><img src="{{asset('assets/img/project_details/1-Stand_Arrawaj-4.jpg')}}" /></div>
+                        <div class="carousel-cell"><img src="{{asset('assets/img/project_details/1-Stand_Arrawaj-5.jpg')}}" /></div> -->
                   @endforeach
                     </div>
                     <div class="carousel carousel-nav" data-flickity='{ "asNavFor": ".carousel-main", "contain": true, "pageDots": false }'>
-                        <div class="carousel-cell"><img src="{{ asset('public/assets/img/project_stands/'.$portfolioItems->project_image)}}" class="h-100 w-100" /></div>
+                        <div class="carousel-cell"><img src="{{ asset('assets/img/project_stands/'.$portfolioItems->project_image)}}" class="h-100 w-100" /></div>
                      @foreach($portfolioItems->galleries as $item)
-                        <div class="carousel-cell"><img src="{{asset('public/assets/img/project_details/'.$item->gallery_image)}}" class="h-100 w-100" /></div>
+                        <div class="carousel-cell"><img src="{{asset('assets/img/project_details/'.$item->gallery_image)}}" class="h-100 w-100" /></div>
                         @endforeach
-                        <!-- <div class="carousel-cell"><img src="{{asset('public/assets/img/project_details/1-Stand_Arrawaj-4.jpg')}}" class="h-100 w-100" /></div>
-                        <div class="carousel-cell"><img src="{{asset('public/assets/img/project_details/1-Stand_Arrawaj-5.jpg')}}" class="h-100 w-100" /></div> -->
+                        <!-- <div class="carousel-cell"><img src="{{asset('assets/img/project_details/1-Stand_Arrawaj-4.jpg')}}" class="h-100 w-100" /></div>
+                        <div class="carousel-cell"><img src="{{asset('assets/img/project_details/1-Stand_Arrawaj-5.jpg')}}" class="h-100 w-100" /></div> -->
                     </div>
             </div>
             <div class="col-md-4 mb-3 d-flex">
